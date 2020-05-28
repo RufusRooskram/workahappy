@@ -10,6 +10,7 @@
     float: left;
     position: relative;
     width: 100%;
+    display: none;
 }
 .shade {
     float: left;
@@ -27,4 +28,11 @@
     position: relative;
     width: 50%;
     padding-left: 435px;
+}
+.row.header-texts.logo .navbar-brand {
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding-top: 98px;
 }
