@@ -22,12 +22,16 @@
     float: left;
     position: relative;
     width: 50%;
+    padding-top: 30px;
+}
 }
 .row.header-texts.text-2 {
     float: right;
     position: relative;
     width: 50%;
     padding-left: 435px;
+    padding-top: 30px;
+}
 }
 .row.header-texts.logo .navbar-brand {
     float: left;
@@ -35,4 +39,12 @@
     width: 100%;
     text-align: center;
     padding-top: 98px;
+}
+.shade .row.header-texts.logo {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.shade .row.header-texts.logo img {
+    width: 145px;
 }
