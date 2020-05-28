@@ -1,9 +1,29 @@
 .barra-menu-haphy {
     background-color: #ffd637 !important;
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 40px;
 }
 .navbar-light .navbar-brand {
     text-align: center;
     float: left;
     position: relative;
     width: 100%;
+}
+.shade {
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.row.header-texts.text-1 {
+    float: left;
+    position: relative;
+    width: 50%;
+}
+.row.header-texts.text-2 {
+    float: right;
+    position: relative;
+    width: 50%;
 }
