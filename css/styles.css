@@ -107,3 +107,16 @@ width: 100%;
     width: 100%;
     text-align: center;
 }
+.subttl-block-1 {
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.ttl-block-1 {
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
