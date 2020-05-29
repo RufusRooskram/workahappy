@@ -59,3 +59,7 @@ header {
   justify-content: space-evenly;
 width: 100%;
 }
+.col-md-12.py-5 {
+    color: #ffd637;
+    text-align: center;
+}
