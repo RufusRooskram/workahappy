@@ -63,3 +63,11 @@ width: 100%;
     color: #ffd637;
     text-align: center;
 }
+.footer-copyright.text-center.py-3 {
+    color: #fff;
+}
+.footer-copyright.text-center.py-3 a {
+    color: gray;
+    text-decoration: none;
+    background-color: transparent;
+}
