@@ -72,9 +72,9 @@ width: 100%;
     background-color: transparent;
 }
 .page-footer.font-small.cyan.darken-3 {
-    background-color: black;
+    background-color: black!important;
 }
 .footer-copyright.text-center.py-3 {
     color: #fff;
-    background-color: #1e1e1e;
+    background-color: #1e1e1e!important;
 }
