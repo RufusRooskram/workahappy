@@ -73,8 +73,37 @@ width: 100%;
 }
 .page-footer.font-small.cyan.darken-3 {
     background-color: black!important;
+    float: left;
+position: relative;
+width: 100%;
 }
 .footer-copyright.text-center.py-3 {
     color: #fff;
     background-color: #1e1e1e!important;
+}
+.segunda-secc {
+    float: left;
+    position: relative;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.imagen-block-1 {
+    background-color: gray;
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 170px;
+}
+.titulo-block-1 {
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.texto-tiendas-block-pla {
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: center;
 }
