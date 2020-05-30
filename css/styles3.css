@@ -29,11 +29,11 @@ section.banner2 {
     margin: auto;
 }
 }
-nav.navbar-wh-2 {
+nav.navbar-wh-2{
     float: left;
     position: absolute;
     width: 100%;
-    background-color: rgba(255,255,0,0.5);
+    background-color: rgba(255, 214, 55,0.5);
 }
 .navbar-wh-2 .navbar-brand img {
     float: left;
@@ -48,4 +48,23 @@ nav.navbar-wh-2 {
 }
 .navbar-wh-2 ul.navbar-nav.mr-auto li a:hover {
     text-decoration: underline;
+}
+.banner2BtnBox {
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+.banner2 a.bannerBtn {
+    float: none;
+    position: relative;
+    width: auto;
+    padding: 15px 20px;
+    color: #000;
+    background: rgba(255,255,255,0.5);
+    border: rgb(255, 214, 55) solid 2px;
+    border-radius: 5px;
 }
