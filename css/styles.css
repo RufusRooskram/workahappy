@@ -128,3 +128,29 @@ width: 100%;
     background-color: #1e1e1e;
     color: white;
 }
+.input-group-append {
+    background-color: #ffc107;
+  }
+  .imagenInfoBox2 {
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.columna1 {
+    float: left;
+    position: relative;
+    width: 100%;
+}.columna2 {
+    float: left;
+    position: relative;
+    width: 100%;
+}.columna3 {
+    float: left;
+    position: relative;
+    width: 100%;
+}.columna4 {
+    float: left;
+    position: relative;
+    width: 100%;
+}
