@@ -78,3 +78,49 @@ nav.navbar-wh-2 {
     border: rgb(255, 214, 55) solid 2px;
     border-radius: 5px;
 }
+
+/* SECCION SERVICIOS */
+
+
+section.Servicios {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.servBox {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+
+/* SECCION BENEFICIOS */
+
+section.Beneficios {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.benBox {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.beneficio {
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.benImgBox {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.benImgBox img {
+    float: none;
+    position: relative;
+    max-width: 100px;
+    max-height: 100px;
+}
