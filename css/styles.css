@@ -23,6 +23,9 @@
     position: relative;
     width: 50%;
     padding-top: 30px;
+    font-family: 'Source-Sans-Pro';
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .row.header-texts.text-2 {
@@ -31,8 +34,25 @@
     width: 50%;
     padding-left: 435px;
     padding-top: 30px;
+    font-family: 'Source-Sans-Pro';
+    font-size: 15px;
+    font-weight: 600;
 }
-
+.ttl-block-1 h3 {
+    font-size: 25px;
+    font-family: 'Source-Sans-Pro';
+    font-weight: 600;
+}
+.subttl-block-1 p {
+    font-size: 20px;
+    font-family: 'Source-Sans-Pro';
+    font-weight: 600;
+}
+a.nav-link {
+    font-family: 'Source-Sans-Pro';
+    font-size: 15px;
+    font-weight: 600;
+}
 .row.header-texts.logo .navbar-brand {
     float: left;
     position: relative;
@@ -201,4 +221,29 @@ form.input-group {
   background-size: cover;
   background-attachment: fixed;
   height: 400px;
+}
+.infoTextBox_3 {
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.infoFundacion_3 {
+    font-size: 35px;
+}
+.nombreEmpresa {
+    font-size: 25px;
+}
+.btnvermas {
+    margin-top: 50px;
+}
+button#contacInfo {
+    background: transparent;
+    border: 1px solid black;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 20px;
 }
