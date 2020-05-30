@@ -49,9 +49,9 @@
     font-weight: 600;
 }
 .texto-tiendas-block-pla p {
-  font-size: 18px;
+  font-size: 17px;
   font-family: 'Source-Sans-Pro';
-  font-weight: 600;
+
 }
 .subttl-block-1 p {
     font-size: 20px;
@@ -74,6 +74,11 @@ a.nav-link {
     float: left;
     position: relative;
     width: 100%;
+}
+.descripcionEmpresa p {
+    font-size: 18px;
+    font-family: 'Open-Sans-Pro';
+    font-weight: 500;
 }
 .shade .row.header-texts.logo img {
     width: 145px;
