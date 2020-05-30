@@ -163,3 +163,18 @@ ul.list-unstyled.list-inline.text-center {
 li.list-inline-item a {
     color: black;
 }
+footer .row {
+    background-color: #000;
+}
+.columna2 p, .columna2 h6 {
+    color: #fff;
+}
+.columna3 p, .columna3 h6 {
+    color: #fff;
+}
+.columna4 p, .columna4 h6 {
+    color: #fff;
+}
+i.fas.fa-search {
+    color: #fff;
+}
