@@ -157,3 +157,9 @@ width: 100%;
     position: relative;
     width: 100%;
 }
+ul.list-unstyled.list-inline.text-center {
+    background-color: #ffc107;
+}
+li.list-inline-item a {
+    color: black;
+}
