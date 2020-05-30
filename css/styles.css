@@ -159,12 +159,14 @@ width: 100%;
 }
 ul.list-unstyled.list-inline.text-center {
     background-color: #ffc107;
+        margin: 0px!important;
 }
 li.list-inline-item a {
     color: black;
 }
 footer .row {
     background-color: #000;
+        padding-bottom: 35px;
 }
 .columna2 p, .columna2 h6 {
     color: #fff;
@@ -177,4 +179,16 @@ footer .row {
 }
 i.fas.fa-search {
     color: #fff;
+}
+.w-75 {
+    width: 45%!important;
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+form.input-group {
+    width: 45%;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 200px;
 }
