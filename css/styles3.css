@@ -17,7 +17,7 @@ section.banner2 {
 .banner2 .ttlBox {
     float: left;
     position: relative;
-    font-family: sans-serif;
+   font-family: 'Source Sans Pro', sans-serif;
     width: 100%;
     text-align: center;
     text-shadow: 2px 2px 4px #fff;
@@ -35,6 +35,12 @@ nav.navbar-wh-2{
     width: 100%;
     background-color: rgba(255, 214, 55,0.5);
 }
+nav.navbar-wh-2 {
+    z-index: 1000;
+    float: left;
+    position: fixed;
+    width: 100%;
+}
 .navbar-wh-2 .navbar-brand img {
     float: left;
     position: relative;
@@ -49,6 +55,8 @@ nav.navbar-wh-2{
 .navbar-wh-2 ul.navbar-nav.mr-auto li a:hover {
     text-decoration: underline;
 }
+
+
 .banner2BtnBox {
     float: left;
     position: relative;
