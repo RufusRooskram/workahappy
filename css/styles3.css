@@ -28,3 +28,24 @@ section.banner2 {
     width: auto;
     margin: auto;
 }
+}
+nav.navbar-wh-2 {
+    float: left;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(255,255,0,0.5);
+}
+.navbar-wh-2 .navbar-brand img {
+    float: left;
+    position: relative;
+    width: auto;
+    height: 80px;
+}
+.navbar-wh-2 ul.navbar-nav.mr-auto li a {
+    color: #000;
+    margin-right: 20px;
+    font-weight: 600;
+}
+.navbar-wh-2 ul.navbar-nav.mr-auto li a:hover {
+    text-decoration: underline;
+}
