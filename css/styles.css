@@ -202,3 +202,28 @@ form.input-group {
   background-attachment: fixed;
   height: 400px;
 }
+.infoTextBox_3 {
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.infoFundacion_3 {
+    font-size: 35px;
+}
+.nombreEmpresa {
+    font-size: 25px;
+}
+.btnvermas {
+    margin-top: 50px;
+}
+button#contacInfo {
+    background: transparent;
+    border: 1px solid black;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 20px;
+}
