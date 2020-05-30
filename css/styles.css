@@ -158,6 +158,9 @@ width: 100%;
     background-color: #1e1e1e;
     color: white;
 }
+.derecopia a {
+    color: #ffc107;
+  }
 .input-group-append {
     background-color: #ffc107;
   }
@@ -273,4 +276,7 @@ h6.titucol {
 .columna2 p, .columna3 p, .columna4 p {
     font-size: 12px;
     font-family: 'Open-Sans-Pro';
+}
+.columna3 a {
+    color: #ffc107;
 }
