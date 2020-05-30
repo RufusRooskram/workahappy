@@ -168,6 +168,7 @@ width: 100%;
   }
 .input-group-append {
     background-color: #ffc107;
+        border-radius: 5px;
   }
   .imagenInfoBox2 {
     float: left;
