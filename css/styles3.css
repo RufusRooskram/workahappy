@@ -121,6 +121,11 @@ section.Servicios {
     text-align: center;
     color: black;
 }
+.Servicios .tab-content {
+    float: left;
+    position: relative;
+    width: 100%;
+}
 
 
 /* SECCION BENEFICIOS */
