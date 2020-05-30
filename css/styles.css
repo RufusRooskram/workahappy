@@ -75,6 +75,11 @@ a.nav-link {
     position: relative;
     width: 100%;
 }
+.descripcionEmpresa p {
+    font-size: 18px;
+    font-family: 'Open-Sans-Pro';
+    font-weight: 500;
+}
 .shade .row.header-texts.logo img {
     width: 145px;
 }
