@@ -13,6 +13,8 @@ section.banner2 {
     background-position: center;
     background-size: cover;
 }
+.navbar-wh-2 ul.navbar-nav {
+    width: auto!important;
 }
 .banner2 .ttlBox {
     float: left;
