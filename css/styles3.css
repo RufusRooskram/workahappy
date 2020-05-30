@@ -92,6 +92,35 @@ section.Servicios {
     position: relative;
     width: 100%;
 }
+.servBox .secTtl {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.servBox ul.nav.nav-tabs {
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    width: 100%;
+}
+.servBox ul.nav.nav-tabs li.active {
+    background: #ffc107;
+    font-weight: 500;
+}
+.servBox ul.nav.nav-tabs li {
+    border: solid 1px black;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    flex-grow: 1;
+}
+.servBox ul.nav.nav-tabs li a {
+    float: left;
+    position: relative;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
 
 
 /* SECCION BENEFICIOS */
