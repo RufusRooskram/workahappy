@@ -196,7 +196,7 @@ form.input-group {
   float: left;
   position: relative;
   width: 100%;
-	background-image: url("imagenes/agua.jpg");
+	background-image: url("../imagenes/agua.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
