@@ -200,4 +200,5 @@ form.input-group {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  height: 400px;
 }
