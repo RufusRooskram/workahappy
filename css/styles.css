@@ -38,10 +38,20 @@
     font-size: 15px;
     font-weight: 600;
 }
+.titulo-block-1 h3 {
+    font-size: 20px;
+    font-family: 'Open-Sans-Pro';
+    font-weight: 600;
+}
 .ttl-block-1 h3 {
     font-size: 25px;
     font-family: 'Source-Sans-Pro';
     font-weight: 600;
+}
+.texto-tiendas-block-pla p {
+  font-size: 18px;
+  font-family: 'Source-Sans-Pro';
+  font-weight: 600;
 }
 .subttl-block-1 p {
     font-size: 20px;
@@ -232,12 +242,18 @@ form.input-group {
 }
 .infoFundacion_3 {
     font-size: 35px;
+    font-weight: 600;
+    font-family: 'Open-Sans-Pro';
 }
 .nombreEmpresa {
     font-size: 25px;
+    font-weight: 600;
+    font-family: 'Open-Sans-Pro';
 }
 .btnvermas {
     margin-top: 50px;
+    font-weight: 600;
+    font-family: 'Open-Sans-Pro';
 }
 button#contacInfo {
     background: transparent;
@@ -246,4 +262,15 @@ button#contacInfo {
     height: 35px;
     border-radius: 5px;
     font-size: 20px;
+    font-weight: 600;
+    font-family: 'Open-Sans-Pro';
+}
+h6.titucol {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Open-Sans-Pro';
+}
+.columna2 p, .columna3 p, .columna4 p {
+    font-size: 12px;
+    font-family: 'Open-Sans-Pro';
 }
