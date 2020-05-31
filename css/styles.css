@@ -286,3 +286,16 @@ h6.titucol {
 .columna3 a {
     color: #ffc107;
 }
+
+
+
+.testim-pla {
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+.testim-pla .owl-stage-outer{
+    height: 510px;
+}
