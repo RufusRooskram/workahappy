@@ -1,4 +1,4 @@
-$('.owl-carousel').owlColab({
+$('.owl-colab').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
@@ -10,12 +10,11 @@ $('.owl-carousel').owlColab({
             items:3
         },
         1000:{
-            items:4
+            items:5
         }
     }
 })
-
-$('.owl-carousel').owlCalen({
+$('.owl-calen').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
@@ -27,7 +26,7 @@ $('.owl-carousel').owlCalen({
             items:3
         },
         1000:{
-            items:3
+            items:5
         }
     }
 })
