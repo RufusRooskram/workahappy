@@ -181,6 +181,19 @@ section.Servicios {
     background: #ffc107;
     font-weight: 500;
 }
+.txtServ {
+    float: left;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    font-family: source sans pro;
+}
+img.imgServ {
+    padding: 5px;
+    float: left;
+    position: relative;
+    width: 100%;
+}
 
 /* SECCION BENEFICIOS */
 
