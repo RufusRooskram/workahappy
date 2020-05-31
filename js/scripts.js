@@ -10,7 +10,7 @@ $('.owl-colab').owlCarousel({
             items:3
         },
         1000:{
-            items:5
+            items:4
         }
     }
 })
@@ -26,7 +26,7 @@ $('.owl-calen').owlCarousel({
             items:3
         },
         1000:{
-            items:5
+            items:3
         }
     }
 })
