@@ -369,6 +369,31 @@ section.Colaboradores {
     width: 100%;
 }
 
+.logo-colab-box {
+    vertical-align: middle;
+    float: left;
+    position: relative;
+    display: flex;
+    height: 100%;
+    min-height: 230px;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+.logo-colab-box img {
+    width: auto!important;
+    max-height: 150px;
+    margin: auto!important;
+    max-width: 200px;
+}
+
+.owl-colab .item {
+    height: 100%;
+}
+
 
 /* SECCION CALL TO ACTION */
 
