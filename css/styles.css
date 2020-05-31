@@ -310,7 +310,7 @@ h2::after {
 	bottom: -10px;
 }
 .carousel {
-	width: 650px;
+	width: 100%;
 	margin: 0 auto;
 	padding-bottom: 50px;
 }
@@ -325,7 +325,7 @@ h2::after {
 	color: #ffc107;
 }
 .carousel .img-box {
-	width: 145px;
+	width: 100%;
 	height: 145px;
 	margin: 0 auto;
 	border-radius: 50%;
