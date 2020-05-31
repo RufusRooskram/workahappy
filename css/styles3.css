@@ -214,6 +214,7 @@ section.Beneficios {
     position: relative;
     width: 100%;
     text-align: center;
+    margin-bottom: 30px;
 }
 .benImgBox {
     float: left;
@@ -228,7 +229,7 @@ section.Beneficios {
     max-height: 100px;
 }
 
-/* SECCION BENEFICIOS */
+/* SECCION CALENDARIO */
 
 
 
@@ -236,7 +237,106 @@ section.calendario {
     float: left;
     position: relative;
     width: 100%;
+    background-image: url(../imagenes/therapy.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 30px 0 20px;
+}
+.eventoBox {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.eventoBkg {
+    float: left;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 85%;
+    height: 300px;
+    background-size: cover;
+    margin-left: 15%;
+}
+
+.calendarioBox {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.txtCalendario {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.ttlCalendario {
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.subCalendario {
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.calenCarousel {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.nomEvento {
+    float: left;
+    position: absolute;
+    width: 100%;
+    background: #ffc107;
+    font-family: source sans pro;
+    text-align: center;
+    bottom: 0;
+    font-weight: 500;
+}
+
+.fechaEvento {
+    float: right;
+    position: relative;
+    width: 80px;
+    padding: 10px;
+    background: #ffc107;
+}
+
+.diaEvento {
+    float: left;
+    position: relative;
+    width: 100%;
+    font-family: source sans pro;
+    text-align: center;
+    font-size: 30px;
+}
+
+.mesEvento {
+    float: left;
+    position: relative;
+    width: 100%;
+    font-family: source sans pro;
+    text-align: center;
+    font-size: 18px;
+}
+
+.anoEvento {
+    float: left;
+    position: relative;
+    width: 100%;
+    font-family: source sans pro;
+    text-align: center;
+    font-size: 25px;
 }
 
 /* SECCION COLABORADORES */
