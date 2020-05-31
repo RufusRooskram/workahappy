@@ -289,90 +289,13 @@ h6.titucol {
 
 
 
-
-.boxx{
-  display: flex;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
+.testim-pla {
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
 }
-
-.box{
-  display: flex;
-  align-items: center;
-  flex-flow: column wrap;
-  width: 50%;
-  min-height: 55vh;
-  margin: 0 auto;
-  box-shadow: -4px 10px 34px 0px rgba(85,85,85,.15);
-  background-color: rgba(255, 255, 255, .35);
-  border-radius: .55em;
-}
-
-.wrapper img{
-  border-radius: 50%;
-  margin: 20px auto;
-  box-shadow: 0px 10px 34px 0px rgba(85,85,85,.25);
-  transition: all 450ms ease;
-}
-
-.wrapper img:hover{
-  transform: translateY(-10px);
-  box-shadow: 0px 10px 34px 0px rgba(85,85,85,.55);
-}
-
-h3{
-  color: #aaaaaa;
-  font-weight: 300;
-  letter-spacing: 2px;
-  font-size: 20px;
-}
-
-h4{
-  color: #4ABFB1;
-  margin: 0;
-  letter-spacing: .5px;
-  text-align: center;
-}
-
-p{
-  color: #aaaaaa;
-  letter-spacing: .5px;
-  width: 50%;
-  text-align: center;
-}
-
-button{
-  margin: 20px auto;
-  border: none;
-  padding: 15px;
-  width: 200px;
-  background-color: #4ABFB1;
-  border-radius: 28px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 900;
-  color: rgba(255, 255, 255, 1);
-  box-shadow: -4px 10px 34px 0px rgba(85,85,85,.15);
-  outline: none;
-  cursor: pointer;
-  transition: all 450ms ease;
-}
-
-button:hover{
-  transform: translateY(-10px);
-  opacity: .9;
-  box-shadow: -3px 10px 34px 0px rgba(85,85,85,.45);
-}
-
-@media screen and (max-width: 800px){
-  .box{
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 500px){
-  .box{
-    width: 90%;
-  }
-  p{width: 80%;}
+.testim-pla .owl-stage-outer{
+    height: 510px;
 }
