@@ -376,6 +376,7 @@ h2::after {
 }
 .carousel .carousel-indicators {
 	bottom: 15px;
+  display: none!important;
 }
 .carousel-indicators li, .carousel-indicators li.active {
 	width: 11px;
