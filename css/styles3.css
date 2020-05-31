@@ -348,3 +348,20 @@ section.Colaboradores {
     width: 100%;
     padding: 30px 0 20px;
 }
+.colabBox {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.secTtl {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.colabCarousel {
+    float: left;
+    position: relative;
+    width: 100%;
+}
