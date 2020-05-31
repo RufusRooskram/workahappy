@@ -175,6 +175,9 @@ section.Servicios {
 .Servicios .tab-content {
     float: left;
     position: relative;
+    border-bottom-left-radius: 5px;
+    border: black solid 1px;
+    border-bottom-right-radius: 5px;
     width: 100%;
 }
 .servBox ul.nav.nav-tabs li a.active {
