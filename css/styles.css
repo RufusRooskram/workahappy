@@ -240,6 +240,7 @@ form.input-group {
   background-size: cover;
   background-attachment: fixed;
   height: 400px;
+      margin-bottom: 50px;
 }
 .infoTextBox_3 {
     float: left;
@@ -310,7 +311,7 @@ h2::after {
 	bottom: -10px;
 }
 .carousel {
-	width: 650px;
+	width: 100%;
 	margin: 0 auto;
 	padding-bottom: 50px;
 }
@@ -322,7 +323,7 @@ h2::after {
     min-height: 340px;
 }
 .carousel .item a {
-	color: #eb7245;
+	color: #ffc107;
 }
 .carousel .img-box {
 	width: 145px;
@@ -375,6 +376,7 @@ h2::after {
 }
 .carousel .carousel-indicators {
 	bottom: 15px;
+  display: none!important;
 }
 .carousel-indicators li, .carousel-indicators li.active {
 	width: 11px;
