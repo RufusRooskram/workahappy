@@ -177,7 +177,10 @@ section.Servicios {
     position: relative;
     width: 100%;
 }
-
+.servBox ul.nav.nav-tabs li a.active {
+    background: #ffc107;
+    font-weight: 500;
+}
 
 /* SECCION BENEFICIOS */
 
