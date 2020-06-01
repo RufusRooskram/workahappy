@@ -493,3 +493,75 @@ p.info {}
     position: relative;
     width: auto;
 }
+.socialLeft, .socialRight {
+    float: left;
+    position: relative;
+    width: 100%;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.socialCenter {
+    float: left;
+    position: relative;
+    width: 100%;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a.logo-social {
+    color: #ffc107;
+    font-size: 26px;
+}
+
+.contactData {
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.footer3 {
+    padding: 30px 30px 0;
+}
+
+.contactIcon {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.contactIcon img {
+    float: none;
+    position: relative;
+    max-width: 50px;
+}
+
+.contactName {
+    float: left;
+    position: relative;
+    width: 100%;
+    color: #fff;
+    padding: 15px;
+}
+
+.contactTxt {
+    float: left;
+    position: relative;
+    width: 100%;
+    color: #fff;
+}
+
+.footer2 {
+    padding-top: 30px;
+}
+
+.copyright {
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
