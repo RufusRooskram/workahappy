@@ -479,6 +479,7 @@ p.info {}
     position: relative;
     width: 100%;
     margin-bottom: 30px;
+    color: #fff
 }
 
 .correoContacto input[type="text"] {
@@ -489,9 +490,16 @@ p.info {}
 }
 
 .correoContacto button {
-    float: right;
+	float: right;
     position: relative;
     width: auto;
+    background: #ffc107;
+    border-radius: 5px;
+    padding: 7px 15px;
+    color: #000;
+    border: #ffc107 solid 1px;
+    font-family: source sans pro;
+    text-transform: uppercase;
 }
 .socialLeft, .socialRight {
     float: left;
