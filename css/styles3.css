@@ -433,3 +433,63 @@ a.ctaButton {
     font-family: source sans pro;
     text-transform: uppercase;
 }
+
+
+/* FOOTER */
+
+footer.wh2-footer {
+    float: left;
+    position: relative;
+    width: 100%;
+    padding: 30px 0 0;
+    background: #000;
+}
+
+.footer1, .footer2, .footer3, .footer4 {
+    float: left;
+    border-bottom: solid;
+    position: relative;
+    width: 100%;
+}
+
+.contactInfo {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+p.marca , p.info {
+    float: left;
+    position: relative;
+    width: 100%;
+    font-family: source sans pro;
+    color: #fff;
+}
+
+p.info {}
+
+.correoContacto {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.correoContacto span {
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.correoContacto input[type="text"] {
+    float: left;
+    margin-bottom: 30px;
+    position: relative;
+    width: 100%;
+}
+
+.correoContacto button {
+    float: right;
+    position: relative;
+    width: auto;
+}
