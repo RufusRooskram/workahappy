@@ -13,3 +13,63 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
 }
+
+.titulo-block-1 {
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.content-block-a {
+  width: 330px;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+}
+.content-block-a img {
+  width: 330px;
+  height: 150px;
+}
+.content-block-a p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    color: #fff;
+    z-index: 2;
+    transition: all 300ms;
+    border: 2px solid #ffdc12;
+    background-color: #000;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 3px;
+  }
+.content-block-a:before, .content-block-a:after {
+  content: '';
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: #000;
+  opacity: 0.6;
+  transition: all 300ms;
+  border: 4px solid #fff;
+}
+.content-block-a:before {
+transform: rotate(45deg) translateY(-550px) translateX(20px);
+}
+.content-block-a:after {
+transform: rotate(45deg) translateY(550px) translateX(-60px);
+}
+.content-block-a:hover:before {
+transform: rotate(45deg) translateY(-236px) translateX(-4px);
+}
+.content-block-a:hover:after {
+transform: rotate(45deg) translateY(175px) translateX(-72px);
+}
+.content-block-a:hover p {
+  transform: translate(-50%, -50%) scale(1);
+}
