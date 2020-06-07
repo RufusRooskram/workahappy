@@ -76,9 +76,7 @@ a.nav-link {
     width: 100%;
 }
 .descripcionEmpresa p {
-    font-size: 18px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 500;
+font-family: source sans pro;
 }
 .shade .row.header-texts.logo img {
     width: 145px;
@@ -250,10 +248,10 @@ form.input-group {
     margin-top: 50px;
 
 }
-.infoFundacion_3 {
+.infoFundacion_3 h3{
     font-family: source sans pro;
 }
-.nombreEmpresa {
+.nombreEmpresa h5 {
     font-family: source sans pro;
 }
 .btnvermas {
