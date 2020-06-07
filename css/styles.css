@@ -436,3 +436,6 @@ form.form-inline.my-2.my-lg-0 {
     left: 0px!important;
     right: auto!important;
 }
+.carousel .carousel-control {
+    background: #000!important;
+}
