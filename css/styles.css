@@ -260,9 +260,9 @@ form.input-group {
     margin-top: 50px;
     font-family: source sans pro;
 }
-button#contacInfo {
-    background: transparent;
-    border: 1px solid black;
+.btnFuncion {
+    background: rgba(255,255,255,0.5);
+    border: 2px solid #ffc107;
     width: 100px;
     height: 35px;
     border-radius: 5px;
