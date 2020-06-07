@@ -23,9 +23,7 @@
     position: relative;
     width: 50%;
     padding-top: 30px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
+    font-family: source sans pro;
 }
 
 .row.header-texts.text-2 {
@@ -34,34 +32,23 @@
     width: 50%;
     padding-left: 435px;
     padding-top: 30px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
+    font-family: source sans pro;
 }
 .titulo-block-1 h3 {
-    font-size: 20px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
+    font-family: source sans pro;
 }
 .ttl-block-1 h3 {
-    font-size: 25px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
+    font-family: source sans pro;
 }
 .texto-tiendas-block-pla p {
-  font-size: 17px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: source sans pro;
 
 }
 .subttl-block-1 p {
-    font-size: 20px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 500;
+    font-family: source sans pro;
 }
 a.nav-link {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
+    font-family: source sans pro;
 }
 .row.header-texts.logo .navbar-brand {
     float: left;
