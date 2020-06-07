@@ -318,8 +318,8 @@ h2::after {
 	color: #ffc107;
 }
 .carousel .img-box {
-	width: 145px;
-	height: 145px;
+	width: 100px;
+	height: 100px;
 	margin: 0 auto;
 	border-radius: 50%;
 }
