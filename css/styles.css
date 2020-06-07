@@ -409,9 +409,11 @@ form.form-inline.my-2.my-lg-0 {
     width: auto!important;
     background: #ffc107!important;
     border-radius: 5px!important;
-    padding: 7px 15px!important;
+    padding: 0px 15px!important;
     color: #000!important;
     border: #ffc107 solid 1px!important;
     font-family: source sans pro!important;
     text-transform: uppercase!important;
+    height: auto;
+    max-height: 400px;
 }
