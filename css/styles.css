@@ -429,3 +429,7 @@ form.form-inline.my-2.my-lg-0 {
     width: 100%;
     text-align: center;
 }
+.sticky {
+    position: fixed;
+    background-color: #fff;
+}
