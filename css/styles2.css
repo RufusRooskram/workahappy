@@ -9,9 +9,7 @@
     height: 650px;
 }
 .titulo-block-1 h3 {
-    font-size: 20px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
+    font-family: source sans pro;
 }
 
 .titulo-block-1 {
@@ -46,6 +44,7 @@
     height: auto;
     text-align: center;
     padding: 3px;
+    font-family: source sans pro;
   }
 .content-block-a:before, .content-block-a:after {
   content: '';
