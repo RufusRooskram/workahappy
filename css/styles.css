@@ -393,3 +393,9 @@ h2::after {
 	border: none;
 	background: #888;
 }
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgb(0, 0, 0)!important;
+    background-color: rgba(0,0,0,0.7)!important;
+    color: #fff!important;
+}
