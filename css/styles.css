@@ -238,14 +238,13 @@ form.input-group {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 400px;
+  padding: 30px 0 20px;
 }
 .infoTextBox_3 {
     float: left;
     position: relative;
     width: 100%;
     text-align: center;
-    margin-top: 50px;
 
 }
 .infoFundacion_3 h3{
@@ -418,6 +417,7 @@ form.form-inline.my-2.my-lg-0 {
     float: left;
     position: relative;
     width: 100%;
+    padding: 30px 0 20px;
 }
 .ttl-carru h3 {
     text-align: center;
