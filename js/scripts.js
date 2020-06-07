@@ -37,7 +37,7 @@ var sticky = navbar.offsetTop;
 var banner = document.getElementById("banner");
 
 function myFunction() {
-  if (window.pageYOffset >= banner) {
+  if (window.pageYOffset >= 500) {
     navbar.classList.add("sticky")
   } else {
     navbar.classList.remove("sticky");
