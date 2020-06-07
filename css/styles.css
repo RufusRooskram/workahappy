@@ -423,3 +423,9 @@ form.form-inline.my-2.my-lg-0 {
     text-align: center;
     font-family: source sans pro;
 }
+.secTxt {
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
