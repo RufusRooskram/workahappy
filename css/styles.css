@@ -259,12 +259,14 @@ form.input-group {
     font-family: source sans pro;
 }
 .btnFuncion {
-    background: rgba(255,255,255,0.5);
-    border: 2px solid #ffc107;
-    width: 100px;
-    height: 35px;
-    border-radius: 5px;
-    font-family: source sans pro;
+  float: none;
+  position: relative;
+  width: auto;
+  padding: 10px 50px;
+  color: #000;
+  background: rgba(255,255,255,0.5);
+  border: rgb(255, 214, 55) solid 2px;
+  border-radius: 5px;
 }
 h6.titucol {
     font-size: 15px;
