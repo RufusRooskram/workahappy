@@ -13,9 +13,13 @@ nav.navbar-wh-2 {
 }
 .navbar-wh-2 .navbar-brand img {
     float: left;
+    max-width: 100%;
     position: relative;
     width: auto;
-    height: 80px;
+    height: auto;
+}
+.navbar-wh-2 a.navbar-brand {
+    max-width: 100px;
 }
 .navbar-wh-2 ul.navbar-nav.mr-auto li a {
     color: #000;
