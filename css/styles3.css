@@ -4,7 +4,6 @@ nav.navbar-wh-2{
     float: left;
     position: absolute;
     width: 100%;
-    background-color: rgba(255, 214, 55,0.5);
 }
 nav.navbar-wh-2 {
     z-index: 1000;
@@ -14,13 +13,17 @@ nav.navbar-wh-2 {
 }
 .navbar-wh-2 .navbar-brand img {
     float: left;
+    max-width: 100%;
     position: relative;
     width: auto;
-    height: 80px;
+    height: auto;
+}
+.navbar-wh-2 a.navbar-brand {
+    max-width: 100px;
 }
 .navbar-wh-2 ul.navbar-nav.mr-auto li a {
     color: #000;
-    margin-right: 20px;
+    margin-right: 10px;
     font-weight: 600;
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
