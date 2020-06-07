@@ -405,3 +405,17 @@ nav.navbar-wh-2 {
 nav.navbar-wh-2 {
     position: relative!important;
 }
+
+
+form.form-inline.my-2.my-lg-0 {
+    float: right!important;
+    position: relative!important;
+    width: auto!important;
+    background: #ffc107!important;
+    border-radius: 5px!important;
+    padding: 7px 15px!important;
+    color: #000!important;
+    border: #ffc107 solid 1px!important;
+    font-family: source sans pro!important;
+    text-transform: uppercase!important;
+}
