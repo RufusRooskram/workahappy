@@ -409,3 +409,8 @@ form.form-inline.my-2.my-lg-0 {
     height: auto;
     max-height: 400px;
 }
+.carru-sec {
+  float: left;
+  position: relative;
+  width: 100%;
+}
