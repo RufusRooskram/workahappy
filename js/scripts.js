@@ -43,3 +43,13 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+
+
+var btn = document.querySelector(".bubble>button");
+var menu = document.querySelector(".bubble.menu");
+var isOpen = false;
+btn.addEventListener("click", function() {
+  menu.className = !isOpen ? "bubble menu active" : "bubble menu";
+  isOpen = !isOpen;
+});
