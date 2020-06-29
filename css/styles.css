@@ -34,6 +34,11 @@
     padding-top: 30px;
     font-family: source sans pro;
 }
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+}
 .titulo-block-1 h3 {
     font-family: source sans pro;
 }
