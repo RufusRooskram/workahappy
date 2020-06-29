@@ -447,11 +447,12 @@ form.form-inline.my-2.my-lg-0 {
   float: left;
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: auto;
   padding-top: 100px;
   background-image: url(../imagenes/fodo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 100px;
 }
 .ttl-servicios-WH {
     float: left;
@@ -502,14 +503,15 @@ form.form-inline.my-2.my-lg-0 {
 }
 /**/
 .derma-WH {
-    float: left;
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    padding-top: 100px;
-    background-image: url(../imagenes/derma2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  float: left;
+  position: relative;
+  width: 100vw;
+  height: auto;
+  padding-top: 100px;
+  background-image: url(../imagenes/derma2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
   }
 
 .texto-derma {
@@ -614,14 +616,15 @@ ul {
 }
 /*Coaching*/
 .coach-WH {
-    float: left;
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    padding-top: 100px;
-    background-image: url(../imagenes/coaching2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  float: left;
+  position: relative;
+  width: 100vw;
+  height: auto;
+  padding-top: 100px;
+  background-image: url(../imagenes/coaching2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
   }
 
 .texto-coach {
@@ -643,14 +646,15 @@ ul {
 }
 /*Finanzas*/
 .finanzas-WH {
-    float: left;
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    padding-top: 100px;
-    background-image: url(../imagenes/finanzas.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  float: left;
+  position: relative;
+  width: 100vw;
+  height: auto;
+  padding-top: 100px;
+  background-image: url(../imagenes/finanzas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
   }
 
 .texto-finanzas {
@@ -672,14 +676,15 @@ ul {
 }
 /*Fisioterapia*/
 .fisio-WH {
-    float: left;
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    padding-top: 100px;
-    background-image: url(../imagenes/fisio.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  float: left;
+  position: relative;
+  width: 100vw;
+  height: auto;
+  padding-top: 100px;
+  background-image: url(../imagenes/fisioo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
   }
 
 .texto-fisio {
@@ -701,14 +706,15 @@ ul {
 }
 /*Nutrición*/
 .nutri-WH {
-    float: left;
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    padding-top: 100px;
-    background-image: url(../imagenes/nutricion2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  float: left;
+  position: relative;
+  width: 100vw;
+  height: auto;
+  padding-top: 100px;
+  background-image: url(../imagenes/nutricion2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
   }
 
 .texto-nutri {
@@ -730,14 +736,15 @@ ul {
 }
 /*Sustentabilidad*/
 .susten-WH {
-    float: left;
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    padding-top: 100px;
-    background-image: url(../imagenes/susten2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  float: left;
+  position: relative;
+  width: 100vw;
+  height: auto;
+  padding-top: 100px;
+  background-image: url(../imagenes/susten2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
   }
 
 .texto-susten {
