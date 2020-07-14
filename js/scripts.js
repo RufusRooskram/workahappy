@@ -57,6 +57,7 @@ btn.addEventListener("click", function() {
 
 
 
+
 var questions = [{
 	"question": "Imposibilidad de conciliar el sueño:",
 	"option1": " Nunca",
@@ -229,4 +230,3 @@ function loadNextQuestion(){
 	}
 
 loadQuestion(currentQuestion);
-
