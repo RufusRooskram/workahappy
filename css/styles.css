@@ -1136,3 +1136,281 @@ border-radius: 8px;
   border: rgb(255, 193, 7) solid 2px;
   border-radius: 5px;
 }
+/*Instalaciones*/
+.instalaciones-WH{
+float: left;
+position: relative;
+width: 100%;
+}
+.tanque-WH {
+    float: left;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 100px;
+    background-image: url(../imagenes/tanq1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.texto-tanque {
+    float: left;
+    position: relative;
+    width: 50%;
+    padding-left: 50px;
+    text-align: justify;
+}
+.ttl-tanque {
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.txt-tanque {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+/*Consultorio*/
+.consult-WH {
+    float: left;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 100px;
+    background-image: url(../imagenes/consul1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.texto-consult {
+    float: left;
+    position: relative;
+    width: 50%;
+    padding-left: 50px;
+    text-align: justify;
+}
+.ttl-consult {
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.txt-consult {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+/*Gimnasio*/
+.gym-WH {
+    float: left;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 100px;
+    background-image: url(../imagenes/gym1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.texto-gym {
+    float: left;
+    position: relative;
+    width: 50%;
+    padding-left: 50px;
+    text-align: justify;
+}
+.ttl-gym {
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.txt-gym {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+/*Sala de fisio*/
+.salfis-WH {
+    float: left;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 100px;
+    background-image: url(../imagenes/salfis1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.texto-salfis {
+    float: left;
+    position: relative;
+    width: 50%;
+    padding-left: 50px;
+    text-align: justify;
+}
+.ttl-salfis {
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.txt-salfis {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+/*Vestidores*/
+.vestidor-WH {
+    float: left;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 100px;
+    background-image: url(../imagenes/vestidor1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.texto-vestidor {
+    float: left;
+    position: relative;
+    width: 50%;
+    padding-left: 50px;
+    text-align: justify;
+}
+.ttl-vestidor {
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.txt-vestidor {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+/*Test*/
+.list-inst-WH {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.btns-instal-WH {
+    display: flex;
+    justify-content: center;
+}
+/**/
+.test-WH {
+  float: left;
+  position: relative;
+  width: 100vw;
+height: 100vh;
+  background-image: url(../imagenes/paz.jpg);
+  background-repeat: no-repeat;
+background-size: cover;
+}
+.test-text {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.test-instr {
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.test-instr1 {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.test-instr2 {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.bloqueestres {
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-top: 60px;
+}
+.img-test-sem {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.img-test-sem img {
+    width: 60%;
+    border: 5px solid white;
+    border-radius: 8px;
+}
+.titleContainer{
+	padding-top: 20px;
+  	padding-bottom: 20px;
+	text-align: center;
+	font-size: 36px;
+	text-transform: uppercase;
+	color:#000;
+}
+.titleContainer img {
+    width: 20%;
+}
+.questions{
+	padding:20px;
+	font-size: 22px;
+	background: #000;
+	border-radius: 20px;
+	margin:10px 0 10px 0;
+	color: #f6f6f6;
+
+}
+
+.optionToChoose{
+	width: 470px;
+	display: inline-block;
+	padding:10px 0 10px 10px;
+	vertical-align: middle;
+	background: rgba(255,255,255,0.5);
+	margin: 10px 0 10px 10px;
+	color:#000000;
+	border-radius: 20px;
+
+}
+
+.optionToChoose:hover{
+	background:#ffc107;
+	color:#f6f6f6;
+
+
+}
+
+.nextButtons{
+	border:1px solid black;
+	outline:none;
+	background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+	width: 100px;
+	height:35px;
+	border-radius: 20px;
+	cursor:pointer;
+	float: right;
+	margin:10px;
+
+}
+.nextButtons:hover{
+	background: #ffc107;
+	color: white;
+
+
+}
+
+.resultContainer{
+	height:100px;
+	text-align: center;
+	font-size: 75px;
+}
+
+.optionToChoose input:checked .optionToChoose{
+  background: #08038c;
+  color: #000;
+}
