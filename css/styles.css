@@ -1,3 +1,7 @@
+.nav-item:hover .dropdown-menu {
+    display: block;
+    left: auto!important;
+}
 .barra-menu-haphy {
     background-color: #ffd637 !important;
     float: left;
@@ -33,6 +37,11 @@
     padding-left: 435px;
     padding-top: 30px;
     font-family: source sans pro;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
 }
 .titulo-block-1 h3 {
     font-family: source sans pro;
@@ -447,11 +456,12 @@ form.form-inline.my-2.my-lg-0 {
   float: left;
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: auto;
   padding-top: 100px;
   background-image: url(../imagenes/fodo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 100px;
 }
 .ttl-servicios-WH {
     float: left;
@@ -500,16 +510,18 @@ form.form-inline.my-2.my-lg-0 {
 	right: 0;
 	background-color: rgba(0,0,0,0.6);
 }
-/**/
+/*Dermatología*/
 .derma-WH {
-    float: left;
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    padding-top: 100px;
-    background-image: url(../imagenes/derma2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  float: left;
+  position: relative;
+  width: 100vw;
+  height: auto;
+  padding-top: 200px;
+  background-image: url(../imagenes/derma2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+  min-height: 800px;
   }
 
 .texto-derma {
@@ -614,14 +626,16 @@ ul {
 }
 /*Coaching*/
 .coach-WH {
-    float: left;
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    padding-top: 100px;
-    background-image: url(../imagenes/coaching2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  float: left;
+  position: relative;
+  width: 100vw;
+  height: auto;
+  padding-top: 200px;
+  background-image: url(../imagenes/coaching2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+  min-height: 800px;
   }
 
 .texto-coach {
@@ -643,14 +657,16 @@ ul {
 }
 /*Finanzas*/
 .finanzas-WH {
-    float: left;
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    padding-top: 100px;
-    background-image: url(../imagenes/finanzas.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  float: left;
+  position: relative;
+  width: 100vw;
+  height: auto;
+  padding-top: 200px;
+  background-image: url(../imagenes/finanzas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+  min-height: 800px;
   }
 
 .texto-finanzas {
@@ -672,14 +688,16 @@ ul {
 }
 /*Fisioterapia*/
 .fisio-WH {
-    float: left;
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    padding-top: 100px;
-    background-image: url(../imagenes/fisio.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  float: left;
+  position: relative;
+  width: 100vw;
+  height: auto;
+  padding-top: 200px;
+  background-image: url(../imagenes/fisio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+  min-height: 800px;
   }
 
 .texto-fisio {
@@ -701,14 +719,16 @@ ul {
 }
 /*Nutrición*/
 .nutri-WH {
-    float: left;
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    padding-top: 100px;
-    background-image: url(../imagenes/nutricion2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  float: left;
+  position: relative;
+  width: 100vw;
+  height: auto;
+  padding-top: 200px;
+  background-image: url(../imagenes/nutricion2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+  min-height: 800px;
   }
 
 .texto-nutri {
@@ -730,14 +750,16 @@ ul {
 }
 /*Sustentabilidad*/
 .susten-WH {
-    float: left;
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    padding-top: 100px;
-    background-image: url(../imagenes/susten2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  float: left;
+  position: relative;
+  width: 100vw;
+  height: auto;
+  padding-top: 200px;
+  background-image: url(../imagenes/susten2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+  min-height: 800px;
   }
 
 .texto-susten {
@@ -756,4 +778,361 @@ ul {
     float: left;
     position: relative;
     width: 100%;
+}
+/*BLOG*/
+.blog-WH {
+    float: left;
+    position: relative;
+    width: 100%;
+    padding-top: 80px;
+}
+.header-banner {
+    background-color: #333;
+    background-image: url(../imagenes/bannerWH.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+.ttl-bann {
+    float: left;
+    position: relative;
+    width: 180px;
+    padding-left: 30px;
+    top: 0;
+}
+.ttl-bann h3{
+font-size: 65px;
+font-weight: 700;
+}
+.banner-blog-WH header {
+    background-color: rgba(18,72,120, 0.8);
+    color: #fff;
+    padding: 0 1rem;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.blog-nav-WH {
+    width: 100%;
+    height: 80px;
+    background: #ffc107;
+    postion: fixed;
+    z-index: 10;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 2% auto 0;
+    padding-left: 0;
+    text-align: right;
+    max-width: 100%;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin-left: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #a9abae;
+}
+/*Cards*/
+.card {
+  display: inline-block;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.15);
+  margin: 20px;
+  position: relative;
+  margin-bottom: 50px;
+  transition: all .2s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin-bottom: 54px;
+}
+
+.image {
+  height: 200px;
+  opacity: .7;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
+}
+
+.image:hover,
+.card:hover .image {
+  height: 200px;
+  opacity: 1;
+}
+
+.text {
+  background: #FFF;
+  padding: 20px;
+  min-height: 200px;
+}
+
+.text p {
+  margin-bottom: 0px;
+}
+
+.blog-WH .fab {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -50px;
+  right: 20px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, .3);
+  color: #fff;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  background: #000;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+}
+
+.blog-WH .fab:hover {
+  background: #ffc107;
+  cursor: pointer;
+  -ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+.blog-nav-WH p {
+    color: #000;
+    font-weight: 600;
+}
+/*CONTACTO*/
+.contacto-WH {
+    float: left;
+    position: relative;
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    background-image: url(../imagenes/contacfon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.mapa-contacto-WH {
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.img-mapacontacto-WH {
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.img-mapacontacto-WH img {
+    width: 100%;
+border-radius: 8px;
+}
+/*Horarios*/
+.horario-WH {
+    float: left;
+    position: relative;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 8px;
+}
+.tt-horario-WH {
+    float: left;
+    position: relative;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    background-color: black;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+.tt-horario-WH h3 {
+    color: #fff;
+}
+.bloque-horario-WH {
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+.ttl-horario-WH {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.ttl-horario-WH p {
+    color: #ffc107;
+}
+.ttl-horario-WH span {
+    color: #fff;
+}
+/*Contacto*/
+.bloque-contacto-WH {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.ttl-contacto1-WH {
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.bloque-contacto {
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-bottom: 35px;
+    margin-top: 10px;
+}
+.txt-contacto1-WH {
+    float: left;
+    position: relative;
+    width: 100%;
+    padding-left: 90px;
+}
+.icon-contacto-WH {
+    float: left;
+    position: absolute;
+    width: 72px;
+}
+.txt-contacto1-WH h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/*Formulario Contacto*/
+.form-WH {
+    width: 340px;
+    height: 595px;
+    background-color: rgba(255,193,7,0.6);
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    padding: 20px 30px;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+    position: relative;
+    float: right;
+}
+.cabeza-contacto-WH {
+    float: left;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    right: 0;
+}
+.img-contacto-WH {
+float: left;
+position: relative;
+width: 340px;
+border-radius: 8px;
+}
+.img-contacto-WH img {
+    width: 340px;
+    height: 175px;
+    border-radius: 8px;
+}
+.img-contacto-WH::before {
+content: '';
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: rgba(0,0,0,0.3);
+border-radius: 8px;
+}
+.ttl-contacto-WH {
+  text-align: center;
+  top: 50%;
+  position: absolute;
+  float: left;
+  width: 100%;
+  z-index: 1;
+}
+.ttl-contacto-WH h3 {
+    margin-top: -24px;
+    padding-bottom: 10px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+.txt-contacto-WH {
+  float: left;
+  position: relative;
+  width: 100%;
+}
+.empresa1 input {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 3px solid #ffc107;
+    background-color: #f2f3f4;
+}
+.correo1 input {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 3px solid #ffc107;
+    background-color: #f2f3f4;
+}
+.texto1 input {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 110px;
+    border-radius: 8px;
+    border: 3px solid #ffc107;
+    background-color: #f2f3f4;
+}
+.nombre1 input {
+  width: 100%;
+  float: left;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 3px solid #ffc107;
+  background-color: #f2f3f4;
+}
+.btn-contacto-WH {
+  float: left;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.btn-contacto-WH button {
+  float: none;
+  position: relative;
+  width: auto;
+  padding: 5px 20px;
+  color: #000;
+  background: rgba(255,255,255,0.7);
+  border: rgb(255, 193, 7) solid 2px;
+  border-radius: 5px;
 }
