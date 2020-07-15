@@ -1415,3 +1415,10 @@ width: 100%;
   background: #08038c;
   color: #000;
 }
+/*Botón de estrés*/
+.reali-test-estres {
+    float: left;
+    position: relative;
+    width: 100%;
+    padding-left: 50px;
+}

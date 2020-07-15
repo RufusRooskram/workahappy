@@ -144,10 +144,12 @@ function loadNextQuestion(){
 
 	//content value of radio button
 	var ans = selectedOption.value;
-	if(questions[currentQuestion].answer==ans){
+
+/*	if(questions[currentQuestion].answer==ans){
 		score+=1;
 	}
-
+	*/
+score+=ans;
 	//uncheck radio
 	selectedOption.checked = false;
 
