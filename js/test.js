@@ -101,6 +101,7 @@ var questions = [{
 
 var currentQuestion = 0;
 var score = 0;
+var mensaje="";
 var totQuestions= questions.length;
 var container = document.getElementById('quizContainer');
 var questionexample = document.getElementById('question');
@@ -164,9 +165,24 @@ score+=ans;
 		loadQuestion(currentQuestion);
 }else {
 
+if (score<24) {
+	mensaje="No existe síntoma alguno de estrés.Tienes un buen equilibrio, !continúa así y contagia a los demás de tus estrategias de afrontamiento!";
+}
+else if (score<36) {
+mensaje="Te encuentras en fase de alarma, trata de identificar el o los factores que te causan estrés para poder ocuparte de ellos de manera preventiva.";
+}
+else if (score<48) {
+mensaje="Haz conciencia de la situación en la que te encuentras y trata de ubicar qué puedes modificar, ya que si la situación estresante se prolonga, puedes romper tu equilibrio entre lo laboral y lo personal. !No agotes tus resistencias!";
+}
+else if (score<60) {
+mensaje="Te encuentras en una fase de agotamiento de recursos fisiológicos con desgaste físico y mental. Esto puede tener consecuencias más serias para tu salud.";
+}
+else if (score<72) {
+mensaje="!Acude urgentemente a nuestras instalaciones!";
+}
 		document.getElementById("quizContainer").style.display = 'none';
 		resultCont.style.display="block";
-		resultCont.innerHTML = 'Resultado: ' + score;
+		resultCont.innerHTML = 'Resultado: ' + score + ".<br>" + mensaje;
 }
 
 	}
