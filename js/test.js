@@ -1,5 +1,5 @@
 var questions = [{
-	"question": "Imposibilidad de conciliar el sueño:",
+	"question": " Imposibilidad de conciliar el sueño:",
 	"option1": " Nunca",
 	"option2":" Casi nunca",
 	"option3":" Pocas veces",
@@ -8,7 +8,7 @@ var questions = [{
   "option6":" Muy frecuente",
 
 }, {
-	"question": "Jaquecas y dolores de cabeza",
+	"question": " Jaquecas y dolores de cabeza:",
   "option1": " Nunca",
 	"option2":" Casi nunca",
 	"option3":" Pocas veces",
@@ -17,7 +17,7 @@ var questions = [{
   "option6":" Muy frecuente",
 
 }, {
-	"question": "Indigestiones o molestias gastrointestinales",
+	"question": " Indigestiones o molestias gastrointestinales:",
   "option1": " Nunca",
 	"option2":" Casi nunca",
 	"option3":" Pocas veces",
@@ -25,7 +25,7 @@ var questions = [{
   "option5":" Relativamente frecuente",
   "option6":" Muy frecuente",
 }, {
-	"question": "Sensación de cansancio extremo o agotamiento",
+	"question": " Sensación de cansancio extremo o agotamiento:",
   "option1": " Nunca",
 	"option2":" Casi nunca",
 	"option3":" Pocas veces",
@@ -33,7 +33,7 @@ var questions = [{
   "option5":" Relativamente frecuente",
   "option6":" Muy frecuente",
 }, {
-	"question": "Tendencia de comer, beber o fumar más de lo habitual",
+	"question": " Tendencia de comer, beber o fumar más de lo habitual:",
   "option1": " Nunca",
 	"option2":" Casi nunca",
 	"option3":" Pocas veces",
@@ -41,7 +41,7 @@ var questions = [{
   "option5":" Relativamente frecuente",
   "option6":" Muy frecuente",
 }, {
-	"question": "Disminución del interés sexual",
+	"question": " Disminución del interés sexual:",
   "option1": " Nunca",
 	"option2":" Casi nunca",
 	"option3":" Pocas veces",
@@ -49,7 +49,7 @@ var questions = [{
   "option5":" Relativamente frecuente",
   "option6":" Muy frecuente",
 }, {
-	"question": "Respiración entrecortada o sensación de ahogo",
+	"question": " Respiración entrecortada o sensación de ahogo:",
   "option1": " Nunca",
 	"option2":" Casi nunca",
 	"option3":" Pocas veces",
@@ -57,7 +57,7 @@ var questions = [{
   "option5":" Relativamente frecuente",
   "option6":" Muy frecuente",
 }, {
-	"question": "Disminución del apetito",
+	"question": " Disminución del apetito:",
   "option1": " Nunca",
 	"option2":" Casi nunca",
 	"option3":" Pocas veces",
@@ -65,7 +65,7 @@ var questions = [{
   "option5":" Relativamente frecuente",
   "option6":" Muy frecuente",
 }, {
-	"question": "Temblores musculares (por ejemplo tics nerviosos o parpadeos)",
+	"question": " Temblores musculares (por ejemplo tics nerviosos o parpadeos):",
   "option1": " Nunca",
 	"option2":" Casi nunca",
 	"option3":" Pocas veces",
@@ -73,7 +73,7 @@ var questions = [{
   "option5":" Relativamente frecuente",
   "option6":" Muy frecuente",
 }, {
-	"question": "Pinchazos o sensaciones dolorosas en distintas partes del cuerpo",
+	"question": " Pinchazos o sensaciones dolorosas en distintas partes del cuerpo:",
   "option1": " Nunca",
 	"option2":" Casi nunca",
 	"option3":" Pocas veces",
@@ -81,7 +81,7 @@ var questions = [{
   "option5":" Relativamente frecuente",
   "option6":" Muy frecuente",
 }, {
-  "question": "Tentaciones fuertes de no levantarse por la mañana",
+  "question": " Tentaciones fuertes de no levantarse por la mañana:",
   "option1": " Nunca",
 	"option2":" Casi nunca",
 	"option3":" Pocas veces",
@@ -89,7 +89,7 @@ var questions = [{
   "option5":" Relativamente frecuente",
   "option6":" Muy frecuente",
 }, {
-  "question": "Tendencias a sudar o palpitaciones",
+  "question": " Tendencias a sudar o palpitaciones:",
   "option1": " Nunca",
 	"option2":" Casi nunca",
 	"option3":" Pocas veces",
@@ -164,7 +164,7 @@ function loadNextQuestion(){
 
 		document.getElementById("quizContainer").style.display = 'none';
 		resultCont.style.display="block";
-		resultCont.innerHTML = 'Gracias' + score;
+		resultCont.innerHTML = 'Resultado: ' + score;
 }
 
 	}
