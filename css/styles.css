@@ -1298,13 +1298,14 @@ width: 100%;
 }
 /**/
 .test-WH {
-  float: left;
-  position: relative;
-  width: 100vw;
-height: 100vh;
-  background-image: url(../imagenes/paz.jpg);
-  background-repeat: no-repeat;
-background-size: cover;
+    float: left;
+    position: relative;
+    width: 100vw;
+    height: auto;
+    background-image: url(../imagenes/paz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 80px;
 }
 .test-text {
     float: left;
