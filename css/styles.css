@@ -277,7 +277,7 @@ h6.titucol {
 
 
 
-h2 {
+.subttlBox h2 {
 	color: #333;
 	text-align: center;
 	text-transform: uppercase;
@@ -286,7 +286,7 @@ h2 {
 	position: relative;
 	margin: 25px 0 50px;
 }
-h2::after {
+.subttlBox h2::after {
 	content: "";
 	width: 100px;
 	position: absolute;
