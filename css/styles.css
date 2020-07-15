@@ -1301,7 +1301,7 @@ width: 100%;
     float: left;
     position: relative;
     width: 100vw;
-    height: auto;
+    min-height: 900px;
     background-image: url(../imagenes/paz.jpg);
     background-repeat: no-repeat;
     background-size: cover;
