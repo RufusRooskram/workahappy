@@ -143,7 +143,7 @@ function loadNextQuestion(){
 	var selectedOption = document.querySelector('input[type=radio]:checked');
 
 	//content value of radio button
-	var ans = selectedOption.value;
+	var ans = parseInt(selectedOption.value);
 
 /*	if(questions[currentQuestion].answer==ans){
 		score+=1;
