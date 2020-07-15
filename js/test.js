@@ -177,7 +177,7 @@ mensaje="Haz conciencia de la situación en la que te encuentras y trata de ubic
 else if (score<60) {
 mensaje="Te encuentras en una fase de agotamiento de recursos fisiológicos con desgaste físico y mental. Esto puede tener consecuencias más serias para tu salud.";
 }
-else if (score<72) {
+else {
 mensaje="!Acude urgentemente a nuestras instalaciones!";
 }
 		document.getElementById("quizContainer").style.display = 'none';
