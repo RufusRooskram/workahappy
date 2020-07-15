@@ -1408,7 +1408,7 @@ width: 100%;
 .resultContainer{
 	height:100px;
 	text-align: center;
-	font-size: 75px;
+	font-size: 60px;
 }
 
 .optionToChoose input:checked .optionToChoose{
