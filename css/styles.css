@@ -1417,5 +1417,15 @@ margin-top: 40px;
     float: left;
     position: relative;
     width: 100%;
-    padding-left: 50px;
+    padding-left: 100px;
+}
+.reali-test-estres p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.test-WH-estres {
+    float: left;
+    position: relative;
+    width: 100%;
 }
