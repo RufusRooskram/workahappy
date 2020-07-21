@@ -1426,6 +1426,7 @@ margin-top: 40px;
 }
 .test-WH-estres {
     float: left;
-    position: relative;
+    position: absolute;
     width: 100%;
+    z-index: 1;
 }
