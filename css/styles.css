@@ -1406,9 +1406,13 @@ width: 100%;
 }
 
 .resultContainer{
-	height:100px;
-	text-align: center;
-	font-size: 51px;
+  text-align: center;
+  font-size: 51px;
+  background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 8px;
+  border: 9px solid #ffc107;
 }
 
 .optionToChoose input:checked .optionToChoose{
