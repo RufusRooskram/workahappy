@@ -1363,9 +1363,7 @@ width: 100%;
 	border-radius: 20px;
 	margin:10px 0 10px 0;
 	color: #f6f6f6;
-
 }
-
 .optionToChoose{
 	width: 470px;
 	display: inline-block;
@@ -1377,14 +1375,10 @@ width: 100%;
 	border-radius: 20px;
 
 }
-
 .optionToChoose:hover{
 	background:#ffc107;
 	color:#f6f6f6;
-
-
 }
-
 .nextButtons{
 	border:1px solid black;
 	outline:none;
@@ -1396,15 +1390,11 @@ width: 100%;
 	cursor:pointer;
 	float: right;
 	margin:10px;
-
 }
 .nextButtons:hover{
 	background: #ffc107;
 	color: white;
-
-
 }
-
 .resultContainer{
   text-align: center;
   font-size: 51px;
