@@ -298,7 +298,7 @@ h6.titucol {
 	bottom: -10px;
 }
 .carousel {
-	width: 100%;
+	width: 77%;
 	margin: 0 auto;
 	padding-bottom: 50px;
 }
@@ -325,7 +325,7 @@ h6.titucol {
 	border-radius: 50%;
 }
 .carousel .testimonial {
-	padding: 30px 250px 10px;
+	padding-top: 30px;
 }
 .carousel .overview {
 	text-align: center;
