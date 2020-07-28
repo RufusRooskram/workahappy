@@ -1370,25 +1370,17 @@ width: 100%;
     position: relative;
     width: 100%;
 }
-.iconwh1 {
-  float: left;
-  position: relative;
-  width: 100%;
-	background-image: url("../imagenes/tanque2.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 30px 0 20px;
+.active .icontabactive {
+    display: block;
 }
-.active .iconwh1 {
-  float: left;
-  position: relative;
-  width: 100%;
-	background-image: url("../imagenes/tanque3.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 30px 0 20px;
+.active .icontab {
+    display: none;
+}
+.icontabactive {
+display: none;
+}
+.icontab {
+    display: block;
 }
 .btns-instal-WH {
     display: flex;
