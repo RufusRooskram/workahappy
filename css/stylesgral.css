@@ -282,7 +282,6 @@ form.input-group {
     position: relative;
     width: 100%;
 }
-}
 .btnFuncion {
   float: none;
   position: relative;
@@ -1370,6 +1369,16 @@ width: 100%;
     float: left;
     position: relative;
     width: 100%;
+}
+..list-inst-WH .nav-item {
+  float: left;
+  position: relative;
+  width: 100%;
+	background-image: url("../imagenes/tanque2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 30px 0 20px;
 }
 .btns-instal-WH {
     display: flex;
