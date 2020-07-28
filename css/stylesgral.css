@@ -585,7 +585,6 @@ transform: rotate(45deg) translateY(175px) translateX(-72px);
     float: left;
     position: relative;
     width: 100%;
-    padding-left: 50px;
 }
 .ttl-derma {
     float: left;
@@ -597,6 +596,7 @@ transform: rotate(45deg) translateY(175px) translateX(-72px);
     float: left;
     position: relative;
     width: 100%;
+    text-align: justify;
 }
 
 ul {
@@ -731,7 +731,6 @@ ul {
     float: left;
     position: relative;
     width: 100%;
-    padding-left: 50px;
 }
 .ttl-finanzas {
     float: left;
@@ -743,6 +742,7 @@ ul {
     float: left;
     position: relative;
     width: 100%;
+    text-align: justify;
 }
 /*Fisioterapia*/
 .fisio-WH {
@@ -762,7 +762,6 @@ ul {
     float: left;
     position: relative;
     width: 100%;
-    padding-left: 50px;
 }
 .ttl-fisio {
     float: left;
@@ -774,6 +773,7 @@ ul {
     float: left;
     position: relative;
     width: 100%;
+    text-align: justify;
 }
 /*Nutrición*/
 .nutri-WH {
@@ -793,7 +793,6 @@ ul {
     float: left;
     position: relative;
     width: 100%;
-    padding-left: 50px;
 }
 .ttl-nutri {
     float: left;
@@ -805,6 +804,7 @@ ul {
     float: left;
     position: relative;
     width: 100%;
+    text-align: justify;
 }
 /*Sustentabilidad*/
 .susten-WH {
@@ -824,7 +824,7 @@ ul {
     float: left;
     position: relative;
     width: 100%;
-    padding-left: 50px;
+    text-align: justify;
 }
 .ttl-susten {
     float: left;
