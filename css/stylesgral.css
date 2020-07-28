@@ -1383,6 +1383,7 @@ width: 100%;
 .btns-instal-WH {
     display: flex;
     justify-content: center;
+    background-color: #fff;
 }
 /**/
 .test-WH {
