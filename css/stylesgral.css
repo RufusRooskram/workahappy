@@ -1215,7 +1215,6 @@ width: 100%;
     float: left;
     position: relative;
     width: 100%;
-    text-align: justify;
 }
 .ttl-tanque {
     float: left;
@@ -1227,6 +1226,7 @@ width: 100%;
     float: left;
     position: relative;
     width: 100%;
+    text-align: justify;
 }
 /*Consultorio*/
 .consult-WH {
@@ -1242,9 +1242,7 @@ width: 100%;
 .texto-consult {
     float: left;
     position: relative;
-    width: 50%;
-    padding-left: 50px;
-    text-align: justify;
+    width: 100%;
 }
 .ttl-consult {
     float: left;
@@ -1256,6 +1254,7 @@ width: 100%;
     float: left;
     position: relative;
     width: 100%;
+    text-align: justify;
 }
 /*Gimnasio*/
 .gym-WH {
@@ -1271,9 +1270,7 @@ width: 100%;
 .texto-gym {
     float: left;
     position: relative;
-    width: 50%;
-    padding-left: 50px;
-    text-align: justify;
+    width: 100%;
 }
 .ttl-gym {
     float: left;
@@ -1285,6 +1282,7 @@ width: 100%;
     float: left;
     position: relative;
     width: 100%;
+    text-align: justify;
 }
 /*Sala de fisio*/
 .salfis-WH {
@@ -1300,9 +1298,7 @@ width: 100%;
 .texto-salfis {
     float: left;
     position: relative;
-    width: 50%;
-    padding-left: 50px;
-    text-align: justify;
+    width: 100%;
 }
 .ttl-salfis {
     float: left;
@@ -1314,6 +1310,7 @@ width: 100%;
     float: left;
     position: relative;
     width: 100%;
+    text-align: justify;
 }
 /*Vestidores*/
 .vestidor-WH {
@@ -1329,9 +1326,7 @@ width: 100%;
 .texto-vestidor {
     float: left;
     position: relative;
-    width: 50%;
-    padding-left: 50px;
-    text-align: justify;
+    width: 100%;
 }
 .ttl-vestidor {
     float: left;
@@ -1343,6 +1338,7 @@ width: 100%;
     float: left;
     position: relative;
     width: 100%;
+    text-align: justify;
 }
 /*Test*/
 .list-inst-WH {
