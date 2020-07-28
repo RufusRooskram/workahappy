@@ -254,6 +254,21 @@ form.input-group {
     text-align: center;
 
 }
+.infoFundacion_3 {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.nombreEmpresa {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.descripcionEmpresa {
+    float: left;
+    position: relative;
+    width: 100%;
+}
 .infoFundacion_3 h3{
     font-family: source sans pro;
 }
@@ -261,8 +276,12 @@ form.input-group {
     font-family: source sans pro;
 }
 .btnvermas {
-    margin-top: 50px;
+    margin-top: 10px;
     font-family: source sans pro;
+    float: left;
+    position: relative;
+    width: 100%;
+}
 }
 .btnFuncion {
   float: none;
