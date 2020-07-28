@@ -1382,6 +1382,9 @@ display: none;
 .icontab {
     display: block;
 }
+.icontab img, .icontabactive img {
+    width: 60px;
+}
 .btns-instal-WH {
     display: flex;
     justify-content: center;
