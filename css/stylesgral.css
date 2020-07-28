@@ -17,6 +17,9 @@
     width: 100%;
     display: none;
 }
+.navbar-dark .navbar-toggler-icon {
+	background-image: url("../imagenes/menu-230.png")!important;
+}
 .shade {
     float: left;
     position: relative;
