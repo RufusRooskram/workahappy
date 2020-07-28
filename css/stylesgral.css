@@ -1256,7 +1256,7 @@ width: 100%;
 .consult-WH {
     float: left;
     position: relative;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     padding-top: 100px;
     background-image: url(../imagenes/consul1.jpg);
@@ -1284,7 +1284,7 @@ width: 100%;
 .gym-WH {
     float: left;
     position: relative;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     padding-top: 100px;
     background-image: url(../imagenes/gym1.jpg);
@@ -1312,7 +1312,7 @@ width: 100%;
 .salfis-WH {
     float: left;
     position: relative;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     padding-top: 100px;
     background-image: url(../imagenes/salfis1.jpg);
@@ -1340,7 +1340,7 @@ width: 100%;
 .vestidor-WH {
     float: left;
     position: relative;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     padding-top: 100px;
     background-image: url(../imagenes/vestidor1.jpg);
@@ -1388,7 +1388,7 @@ width: 100%;
 .test-WH {
     float: left;
     position: relative;
-    width: 100vw;
+    width: 100%;
     min-height: 900px;
     background-image: url(../imagenes/paz.jpg);
     background-repeat: no-repeat;
