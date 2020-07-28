@@ -1538,6 +1538,12 @@ nav.navbar-wh-2 {
     max-width: 100px;
     margin-right: 30px;
 }
+ul.navbar-nav.mr-auto {
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: left;
+}
 .navbar-wh-2 ul.navbar-nav.mr-auto li a {
     color: #000;
     margin-right: 10px;
