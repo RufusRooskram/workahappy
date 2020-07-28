@@ -608,6 +608,7 @@ ul {
     float: right;
     position: relative;
     width: auto;
+    display: none;
 }
 .bubble {
     background: #ffc107;
@@ -699,7 +700,6 @@ ul {
     float: left;
     position: relative;
     width: 100%;
-    padding-left: 50px;
 }
 .ttl-coach {
     float: left;
@@ -711,6 +711,7 @@ ul {
     float: left;
     position: relative;
     width: 100%;
+    text-align: justify;
 }
 /*Finanzas*/
 .finanzas-WH {
