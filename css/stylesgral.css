@@ -1417,14 +1417,18 @@ width: 100%;
 	border-radius: 20px;
 	margin:10px 0 10px 0;
 	color: #f6f6f6;
+  width: 100%;
+  float: left;
+  position: relative;
+  text-align: center;
 }
 .optionToChoose{
-	width: 470px;
+	width: 100%;
 	display: inline-block;
 	padding:10px 0 10px 10px;
 	vertical-align: middle;
 	background: rgba(255,255,255,0.5);
-	margin: 10px 0 10px 10px;
+	margin: 5px 0px;
 	color:#000000;
 	border-radius: 20px;
 
