@@ -1380,6 +1380,16 @@ width: 100%;
   background-attachment: fixed;
   padding: 30px 0 20px;
 }
+.active .iconwh1 {
+  float: left;
+  position: relative;
+  width: 100%;
+	background-image: url("../imagenes/tanque3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 30px 0 20px;
+}
 .btns-instal-WH {
     display: flex;
     justify-content: center;
