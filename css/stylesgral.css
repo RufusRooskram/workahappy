@@ -20,6 +20,9 @@
 .navbar-dark .navbar-toggler-icon {
 	background-image: url("../imagenes/menu-320.png")!important;
 }
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #000!important;
+}
 .shade {
     float: left;
     position: relative;
