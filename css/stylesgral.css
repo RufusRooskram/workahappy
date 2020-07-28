@@ -1214,8 +1214,7 @@ width: 100%;
 .texto-tanque {
     float: left;
     position: relative;
-    width: 50%;
-    padding-left: 50px;
+    width: 100%;
     text-align: justify;
 }
 .ttl-tanque {
